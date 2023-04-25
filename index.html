@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Fear and Greed Index</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sub-container">
+        <h1>Crypto Fear and Greed Index</h1>
+        <div class="index-labels">
+          <span class="fear">Fear</span>
+          <span class="greed">Greed</span>
+        </div>
+        <div class="index-bar">
+          <div class="index-level"></div>
+        </div>
+
+        <div class="index-number-container">
+          <span class="index-number">.</span>
+        </div>
+      </div>
+
+      <div class="input-parent">
+        <label for="index-value">Enter Index Value (0-100):</label>
+        <input
+          type="number"
+          id="index-value"
+          min="0"
+          max="100"
+          style="width: 200px;"
+        />
+      </div>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
