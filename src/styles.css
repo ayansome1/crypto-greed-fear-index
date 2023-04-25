@@ -72,7 +72,16 @@ label {
 }
 
 .sub-container {
+  position: relative;
   border: 40px solid darkslategray;
   padding: 30px;
   padding-bottom: 110px;
+}
+
+.footer {
+  font-size: 12px;
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  color: lightslategray;
 }
